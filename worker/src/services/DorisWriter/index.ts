@@ -222,6 +222,7 @@ export class DorisWriter {
         strip_outer_array: true,
         read_json_by_line: false,
         max_filter_ratio: 0.1,
+        expect: "100-continue",
         timeout: 600, // 10 minutes
       })
       .catch((err: any) => {
